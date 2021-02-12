@@ -1,0 +1,412 @@
+/*********************************/
+/*    01. General Conditions     */
+/*********************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+  /* ==========================================================================
+Global Styles
+========================================================================== */
+a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+a:hover, a:focus { color: #3dc9b3; text-decoration: none; }
+p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
+h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
+h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px; margin: 25px auto; }
+
+/*****************************/
+/*    01. Navigation index   */
+/*****************************/
+.brandLogo{
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+}
+.bg-dark {
+    background-color: transparent!important;}
+    .navbar-custom .dropdown-item:hover .item-text {
+        color: #00c9db;
+    }
+    .navbar-dark .navbar-nav .active>.nav-link {
+        color: #00c9db;}
+    .navbar-dark .navbar-nav .nav-link {
+        color: white;
+        font-weight: 700;
+    }
+    .navbar-dark .navbar-toggler {
+        color: #00c9db;
+        border-color: #00c9db;
+    }
+    .navbar-dark .navbar-toggler-icon {
+        color: #00c9db;}
+     .nav-item .nav-link:hover, .nav-item .nav-link.active {
+    color: #00c9db !important;
+}
+
+    /* Social Iconos */
+    .social-icons {
+      display: block;
+      margin-left: 0.5rem;
+    }
+  
+          .fa-stack {
+      margin-bottom: 0.1875rem;
+      margin-left: 0.375rem;
+      font-size: 0.75rem;
+    }
+    
+     .fa-stack-2x {
+      color: #00c9db;
+      transition: all 0.2s ease;
+    }
+    
+    .fa-stack-1x {
+      color: #fff;
+      transition: all 0.2s ease;
+    }
+  
+     .fa-stack:hover .fa-stack-2x {
+      color: #fff;
+    }
+  
+    .fa-stack:hover .fa-stack-1x {
+      color: #00c9db;
+      } 
+
+/*****************************/
+/* 01.1. Navigation Portfolio */
+/*****************************/
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top.rounded {
+  background-color: black !important;
+}
+.navbar-toggler {
+  background-color: #00c9db;
+}
+a.nav-link.portfolio {
+  color: white !important;
+  width: 100px;
+  font-weight: 700;
+}
+a.nav-link.portfolio.home{
+  color: #00c9db !important;
+}
+/*****************************/
+/*    02.   Header Efect     */
+/*****************************/
+h1 {
+	color: #f1f1f8;
+    font: 700 2.5rem/2.875rem "Montserrat", sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+}
+.p-large {
+    color: #f1f1f8;
+    font: 400 1rem/1.5rem "Open Sans", sans-serif;}
+
+.header {
+	background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../img/foto1.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.header .header-content {
+	padding-top: 8.5rem;
+	padding-bottom: 7rem;
+	text-align: center;
+}
+
+.header .text-container {
+	margin-bottom: 3rem;
+}
+
+.header h1 {
+	margin-bottom: 1rem;
+}
+
+.header #js-rotating {
+	color: #40e0ee;
+}
+
+.header .p-large {
+	margin-bottom: 2rem;
+}
+
+.header .btn-solid-lg {
+	margin-right: 0.5rem;
+	margin-bottom: 1.25rem;
+}
+
+/*****************************/
+/*    03.   Team     */
+/*****************************/
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+/* ==========================================================================
+Intro
+========================================================================== */
+h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
+/* ==========================================================================
+Features
+========================================================================== */
+.features-wrapper, .team-wrapper { margin: 70px 0 0; }
+.shadow { text-shadow: rgb(55, 181, 161) 1px 1px, rgb(55, 181, 161) 2px 2px, rgb(55, 181, 161) 3px 3px, rgb(55, 181, 161) 4px 4px, rgb(55, 181, 161) 5px 5px, rgb(55, 181, 161) 6px 6px, rgb(55, 181, 161) 7px 7px, rgb(55, 181, 161) 8px 8px, rgb(55, 181, 161) 9px 9px, rgb(55, 181, 161) 10px 10px, rgb(55, 181, 161) 11px 11px, rgb(55, 181, 161) 12px 12px, rgb(55, 182, 162) 13px 13px, rgb(55, 183, 163) 14px 14px, rgb(56, 184, 164) 15px 15px, rgb(56, 185, 165) 16px 16px, rgb(56, 186, 166) 17px 17px, rgb(57, 187, 167) 18px 18px, rgb(57, 188, 168) 19px 19px, rgb(57, 189, 169) 20px 20px, rgb(58, 191, 170) 21px 21px, rgb(58, 192, 171) 22px 22px, rgb(58, 193, 172) 23px 23px, rgb(59, 194, 173) 24px 24px, rgb(59, 195, 174) 25px 25px, rgb(59, 196, 175) 26px 26px, rgb(60, 197, 176) 27px 27px, rgb(60, 198, 177) 28px 28px, rgb(60, 199, 178) 29px 29px, rgb(61, 201, 179) 30px 30px; }
+.icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: #3dc9b3; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
+/* ==========================================================================
+Team
+========================================================================== */
+.team img { margin-bottom: 40px; }
+ul.social-buttons { list-style: none; margin: 0; padding: 0; }
+ul.social-buttons li { display: inline-block; margin-right: 10px; }
+ul.social-buttons li:last-child { margin-right: 0; }
+.social-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: #242830; display: inline-block; color: #fff; font-size: 17px; line-height: 40px; text-align: center; }
+.social-btn:hover, .social-btn:focus { background: #3dc9b3; color: #fff; }
+.social { margin-top: 25px }
+/* ==========================================================================
+FlexSlider Custom CSS
+========================================================================== */
+#servicesSlider { margin-top: 70px; }
+ul.slides li { margin-bottom: 20px; }
+
+/*****************************/
+/*    03.   Portfolio     */
+/*****************************/
+
+/* ==========================================================================
+Swag Paralax
+========================================================================== */
+.swag { background: url('../img/foto7.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
+.swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
+.swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
+.down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(61, 201, 179, 0.8); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
+.down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(61, 201, 179, 1); }
+
+/*****************************/
+/*    03.   Workshop     */
+/*****************************/
+
+/* ==========================================================================
+Portfolio
+========================================================================== */
+.effects { padding-left: 15px; }
+.effects .img { position: relative; margin-bottom: 50px; position: relative; z-index: 1; overflow: hidden; }
+.effects .img:nth-child(n) { margin-right: 5px; }
+.effects .img:first-child { margin-left: -15px; }
+.effects .img:last-child { margin-right: 0; }
+.effects .img img { display: block; margin: 0; padding: 0; height: auto; }
+.overlay { display: block; position: absolute; z-index: 20; background: rgba(100, 194, 158, 0.8); overflow: hidden; transition: all 0.5s; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; }
+a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index: 100; width: 45px; height: 45px; font-size: 20px; font-weight: 700; color: #fff; line-height: 45px; text-align: center; background-color: #000; cursor: pointer; }
+a.close-overlay.hidden { display: none; }
+a.expand { display: block; position: absolute; z-index: 100; text-align: center; color: #fff; font-weight: 600; font-size: 14px; text-transform: uppercase; line-height: 30px; }
+.overlay-effect .img i { font-size: 30px; }
+.overlay-effect .overlay { bottom: 0; left: 0; right: 0; width: 100%; height: 100%; opacity: 0; }
+.overlay-effect .overlay a.expand { left: 0; right: 0; bottom: 47%; margin: 0 auto -30px auto; }
+.overlay-effect .img.hover .overlay { height: 100%; opacity: 1; }
+.img img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
+.img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
+.designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
+
+/*****************************/
+/*    03.   Contact     */
+/*****************************/
+.subscribe { background: url('../img/foto8.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0 140px; }
+.titleContact{
+    color: #00c9db;
+}
+.parrafoContac{
+    color: white;
+}
+#txtNombre{
+    border: none;
+    border: solid white;
+    background-color: transparent;
+} 
+::-webkit-input-placeholder { color: white !important;; } 
+
+:-moz-placeholder { /* Firefox 18- */ color: white!important;; } 
+
+::-moz-placeholder { /* Firefox 19+ */ color: white !important;; } 
+
+:-ms-input-placeholder { color: white !important;; }
+
+input{
+color: #00c9db !important;
+} 
+textarea{
+    color: #00c9db !important;
+    height: 100px !important;
+}
+.social-btn1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #00c9db;
+    display: inline-block;
+    color: white;
+    font-size: 17px;
+    line-height: 40px;
+    text-align: center;
+}
+.social-btn1:hover, .social-btn1:focus { background: white; color: black; }
+
+.btn-outline-info{
+    border: solid #00c9db !important;
+    color: white !important;
+}
+.buttonSend{
+    text-align: center;
+}
+
+/*****************************/
+/*    03.   Gallery Portfolio */
+/*****************************/
+.grid-gallery {
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-gap: 1rem;
+    grid-auto-flow: row dense;
+  }
+  
+  @media all and (min-width: 320px) {
+    .grid-gallery {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media all and (min-width: 768px) {
+    .grid-gallery {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media all and (min-width: 1024px) {
+    .grid-gallery {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+  
+  .grid-gallery__item:nth-child(11n+1) {
+    grid-column: span 1;
+  }
+  
+  .grid-gallery__item:nth-child(11n+4) {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  
+  .grid-gallery__item:nth-child(11n+6) {
+    grid-column: span 3;
+    grid-row: span 1;
+  }
+  
+  .grid-gallery__item:nth-child(11n+7) {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+  
+  .grid-gallery__item:nth-child(11n+8) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  
+  .grid-gallery__item:nth-child(11n+9) {
+    grid-row: span 3;
+  }
+  
+  .grid-gallery__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  figcaption {
+    display: none;
+  }
+  
+  /**********************/
+/*     16. Footer     */
+/**********************/
+.footer {
+	padding-top: 5rem;
+    background-color: rgba(0, 0, 0, 2);
+    border: solid #eaeff0;
+}
+
+.footer .footer-col {
+	margin-bottom: 2.25rem;
+}
+
+.footer h4 {
+	margin-bottom: 1rem;
+}
+
+.footer .list-unstyled .fas {
+	color: #00c9db;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.footer .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+.footer .fa-stack {
+	margin-bottom: 0.75rem;
+	margin-right: 0.5rem;
+	font-size: 1.5rem;
+}
+
+.footer .fa-stack .fa-stack-1x {
+    color: #262431;
+	transition: all 0.2s ease;
+}
+
+.footer .fa-stack .fa-stack-2x {
+	color: #f1f1f8;
+	transition: all 0.2s ease;
+}
+
+.footer .fa-stack:hover .fa-stack-1x {
+	color: #f1f1f8;
+}
+
+.footer .fa-stack:hover .fa-stack-2x {
+    color: #00c9db;
+}
+a.turquoise{
+    color: #00c9db;
+}
+.white{
+    color: white;
+}
+h4{
+    color: white;
+}
+/*************************/
+/*     17. Copyright     */
+/*************************/
+.copyright {
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+	background-color: #00c9db;
+	text-align: center;
+}
+
+.copyright .p-small {
+	color: black;
+    opacity: 0.6;
+    font-weight: 500;
+}
+.col-md-6.butto {
+  margin-top: 30px;
+}
+  

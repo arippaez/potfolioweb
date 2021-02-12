@@ -1,0 +1,150 @@
+{
+  "main": {
+    "name":"Ariany Páez",
+    "description":"I'm a Web Designer & Front-end Developer focused on creating clean, responsive web designs!",
+    "image":"foto.jpg",
+    "bio":"I consider myself a responsible, dynamic and creative person, with ease of adaptation and ability to work as a team, under high pressure conditions. With initiative to solve problems efficiently and achieve the goals and objectives set by the company.",
+    "contactmessage":"Let's work together! For more details about my work you can check my linkedin, download my cv or send me a message",
+    "email": "arianypaez@gmail.com",
+    "phone": "+54 911 6139 8446",
+    "github":"https://github.com/arippaez",
+    "project":"https://www.linkedin.com/in/ariany-paez-5a888a19a/",
+    "address":{
+      "street":"Argentina",
+      "city":"CABA",
+      "state":"Buenos Aires",
+      "zip": "1419"
+    },
+    "website": "http://www.paezariany.com.ar",
+    "resumedownload":"https://drive.google.com/file/d/16p4_7D8AIU3ITJ2LgMj8bvtepUQpY36e/view?usp=sharing",
+    "social":[
+  
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/ariany-paez-5a888a19a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/arippaez",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"HERE A BIT OF MY KNOWLEDGE",
+    "education":[
+          {
+            "school": "Crehana",
+            "degree": "Wordpress",
+            "graduated": "December 2020",
+            "description": "WORDPRESS, WEB HOSTING, DOMINIO, TEMPLATES."
+          },
+      {
+        "school": "Coder House",
+        "degree": "React Developer",
+        "graduated": "November 2020",
+        "description": "HTML5, GITHUB, CSS3, NPM, BOOTSTRAP, REACT, NODE.JS, FIREBASE."
+      },
+      {
+        "school": "Udemy",
+        "degree": "Master en JavaScript",
+        "graduated": "September 2020",
+        "description": "ANGULAR, JSON, VUE.JS, REACT, VISUAL STUDIO CODE, NODE.JS."
+      },
+      
+      
+      {
+        "school":"Coder House",
+        "degree":"Web Developer Front-End",
+        "graduated":"March 2020",
+        "description":"HTML5, CSS3, SASS, BOOTSTRAP, MATERIAL DESIGN, GITHUB, HOSTING."
+      },
+      {
+        "school":"Depc Suite",
+        "degree":"Full stack developer",
+        "graduated":"December 2019",
+        "description":"HTML5, CSS3, BOOTSTRAP, JQUERY, PHP, JAVA, POO, LARAVEL, XAMP, MAMP."
+      }
+    ],
+    "work":[
+      {
+        "company":"Lab Design Web",
+        "title":"Front-End Developer Web",
+        "years":"July 2020 - Present",
+        "description":"Design and creation of web applications using javascript and its libraries (React js), component layout, implementation of aws service (S3, CloudFront, CDN, Amplify), Code optimization."
+      },
+      {
+        "company":"Freelancer",
+        "title":"Web Developer",
+        "years":"June 2019 - Present",
+        "description":"Design and layout of dynamic websites in WORDPRESS, HTML5, CSS3, JAVASCRIPT, also layout in laravel (blade) and modification of react js components. Administration of hosting and domains."
+      }
+    ],
+    "skills":[
+      {
+        "name":"React",
+        "level":"60%"
+      },
+      {
+        "name":"VueJs",
+        "level":"55%"
+      },
+      {
+        "name":"CSS",
+        "level":"70%"
+      },
+      {
+        "name":"HTML5",
+        "level":"90%"
+      },
+      {
+        "name":"JAVASCRIPT",
+        "level":"80%"
+      },
+      {
+        "name":"BOOTSTRAP",
+        "level":"70%"
+      },
+      {
+        "name":"SQL/MYSQL",
+        "level":"50%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title": "Lion Of Juda",
+        "category": "Blog",
+        "image": "lionofjuda.jpg",
+        "url": "lionofjuda/index.html"
+      },
+      {
+        "title":"Portfolio Fotográfico",
+        "category":"Blog",
+        "image":"fotografia.jpg",
+        "url":"fotografia/index.html"
+      },
+      {
+        "title": "Occiquimicos",
+        "category": "Blog",
+        "image": "occiquimicos.jpg",
+        "url": "https://www.occiquimicosvnzla.com/"
+      },
+      {
+        "title":"Zogin Fit",
+        "category":"Fitness",
+        "image":"zogin.jpg",
+        "url":"zogin/index.html"
+      },
+      {
+        "title":"Lab Design Web",
+        "category":"Blog",
+        "image":"labdesignweb.jpg",
+        "url":"https://www.labdesignweb.com/"
+      }
+     
+    ]
+  }
+}
